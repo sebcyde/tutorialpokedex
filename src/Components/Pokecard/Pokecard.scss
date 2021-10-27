@@ -1,0 +1,28 @@
+@import '../Variables.scss';
+
+.Pokecard {
+	height: fit-content;
+	background-color: $PokeCardBackground;
+	width: fit-content;
+	padding: 1em;
+	border-radius: 20px;
+	border: $PokeCardBorder;
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.624);
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	img {
+		height: 10em;
+		width: auto;
+		padding: 1em;
+		background-color: white;
+		border: $PokeCardImgBorder;
+		border-radius: 10px;
+	}
+}
